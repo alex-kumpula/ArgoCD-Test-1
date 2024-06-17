@@ -42,13 +42,13 @@
 			"target": "/usr/local/share/minikube-localhost",
 			"type": "bind"
 		}
-	]
+	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "kubectl version",
+	"postCreateCommand": "k3d kubeconfig merge -a -d"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
