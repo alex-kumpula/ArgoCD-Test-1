@@ -22,7 +22,10 @@
 		"ghcr.io/rio/features/k3d:1": {},
 		"ghcr.io/devcontainers-contrib/features/argo-cd:1": {},
 		"ghcr.io/goldsam/dev-container-features/flux2:1": {},
-		"ghcr.io/devcontainers-contrib/features/kubectx-kubens:1": {}
+		"ghcr.io/devcontainers-contrib/features/kubectx-kubens:1": {},
+		"ghcr.io/gickis/devcontainer-features/kubeseal:1": {
+			"version": "latest"
+		}
 	},
 
 	"remoteEnv": {
